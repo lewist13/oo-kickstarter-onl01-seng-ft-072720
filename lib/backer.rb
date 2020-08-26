@@ -8,8 +8,8 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-    logan = Backer.new("Logan")
-hoverboard = Project.new("Awesome Hoverboard")
+      logan = Backer.new("Logan")
+      hoverboard = Project.new("Awesome Hoverboard")
   end
 
 end

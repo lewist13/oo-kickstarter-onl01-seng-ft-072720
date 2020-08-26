@@ -10,7 +10,6 @@ class Backer
     @backed_projects << project
     logan = Backer.new("Logan")
 hoverboard = Project.new("Awesome Hoverboard")
-logan.back_project(hoverboard)
   end
 
 end
